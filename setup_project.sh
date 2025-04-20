@@ -3,15 +3,7 @@
 # Set the base directory to the location of this script
 BASE_DIR=$(dirname "$0")/../economy-of-gru
 
-# Step 1: Initialize the project with pnpm
-cd "$BASE_DIR"
-pnpm init -y
 
-# Step 2: Create the directory structure and files
-mkdir -p .github/workflows
-mkdir -p assets/diagrams
-mkdir -p assets/styles
-mkdir -p data
 mkdir -p js
 mkdir -p public
 mkdir -p scripts
